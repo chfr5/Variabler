@@ -14,7 +14,7 @@ namespace SmallMetode
             Console.WriteLine(res); // 7
             double res2 = BeregnAreal(5);
             Console.WriteLine(res2); // 78.53
-            Udskriv();  // bloank linje
+            Udskriv();  // blank linie
             Udskriv("Dette er en test"); // Dette er en test
             double res3 = BeregnMoms(100.35);
             Console.WriteLine(res3);    // 25.0875
