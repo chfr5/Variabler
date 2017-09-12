@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overload", "Overload\Overlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekursivt", "Rekursivt\Rekursivt.csproj", "{CCA3FEAA-7117-4F3F-B8BD-0AD47E9F4AED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpelClass", "SimpelClass\SimpelClass.csproj", "{B6FF990B-A124-41EF-AE93-B0FD8BD15439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terning1", "Terning1\Terning1.csproj", "{64EC57BE-57E5-4B9F-9711-A05519D10384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{CCA3FEAA-7117-4F3F-B8BD-0AD47E9F4AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCA3FEAA-7117-4F3F-B8BD-0AD47E9F4AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCA3FEAA-7117-4F3F-B8BD-0AD47E9F4AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FF990B-A124-41EF-AE93-B0FD8BD15439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FF990B-A124-41EF-AE93-B0FD8BD15439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FF990B-A124-41EF-AE93-B0FD8BD15439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FF990B-A124-41EF-AE93-B0FD8BD15439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EC57BE-57E5-4B9F-9711-A05519D10384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EC57BE-57E5-4B9F-9711-A05519D10384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EC57BE-57E5-4B9F-9711-A05519D10384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EC57BE-57E5-4B9F-9711-A05519D10384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
