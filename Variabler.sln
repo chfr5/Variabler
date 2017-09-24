@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabler", "Variabler\Variabler.csproj", "{8FAB161C-49C5-40FE-BD86-485A908F8762}"
 EndProject
@@ -40,6 +40,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polymorfiDyr1", "polymorfiDyr1\polymorfiDyr1.csproj", "{6F4784D4-7834-4B2D-9775-0B2AFE0A4FBF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simpelFejl1", "simpelFejl1\simpelFejl1.csproj", "{CDA06EA1-C80A-4F4F-BD45-38FD60A2BC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nedarv", "nedarv\nedarv.csproj", "{683B2E41-2FE9-4CA9-91BD-C76B1AC984D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,8 +125,15 @@ Global
 		{CDA06EA1-C80A-4F4F-BD45-38FD60A2BC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA06EA1-C80A-4F4F-BD45-38FD60A2BC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA06EA1-C80A-4F4F-BD45-38FD60A2BC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683B2E41-2FE9-4CA9-91BD-C76B1AC984D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683B2E41-2FE9-4CA9-91BD-C76B1AC984D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683B2E41-2FE9-4CA9-91BD-C76B1AC984D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683B2E41-2FE9-4CA9-91BD-C76B1AC984D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C839B6AC-3BA7-4F8D-A63D-766E717BABD3}
 	EndGlobalSection
 EndGlobal
