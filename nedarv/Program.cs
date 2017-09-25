@@ -10,22 +10,32 @@ namespace nedarv
     {
         static void Main(string[] args)
         {
+            LudoTerning 1 = new LudoTerning();
+            1.Skriv();
+            Terning[] terning = new Terning[4];
+            terning[0]=new Terning();
+            terning[1]=new LudoTerning();
+            terning[2]=new LudoTerning();
+            terning[3]=new Terning();
+            foreach (var item in terning)
+	{
+                item.Skriv();
+	}
+
         }
     }
     public class Terning
     {
         private static System.Random rnd;
         private int værdi;
-
         public int Værdi
         {
             get { return this.værdi; }
             set {
                 if (value < 0 || value > 6)
-                {
                     value = 1;
+                this.værdi = value; 
                 }
-                this.værdi = value; }
         }
 
         public virtual void Skriv()
