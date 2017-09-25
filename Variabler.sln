@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nedarv", "nedarv\nedarv.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10_interface", "Modul10_interface\Modul10_interface.csproj", "{9C602ADC-04A0-47AB-993D-0B9668603547}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module11_Collection", "Module11_Collection\Module11_Collection.csproj", "{B580003E-E25A-43FD-8188-EDA03449156F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module11_generic", "Module11_generic\Module11_generic.csproj", "{5D8E5269-1D71-4390-8769-1B3B9201EF49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{9C602ADC-04A0-47AB-993D-0B9668603547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C602ADC-04A0-47AB-993D-0B9668603547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C602ADC-04A0-47AB-993D-0B9668603547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B580003E-E25A-43FD-8188-EDA03449156F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B580003E-E25A-43FD-8188-EDA03449156F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B580003E-E25A-43FD-8188-EDA03449156F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B580003E-E25A-43FD-8188-EDA03449156F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8E5269-1D71-4390-8769-1B3B9201EF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8E5269-1D71-4390-8769-1B3B9201EF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8E5269-1D71-4390-8769-1B3B9201EF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8E5269-1D71-4390-8769-1B3B9201EF49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
