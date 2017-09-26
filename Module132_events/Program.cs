@@ -14,8 +14,22 @@ namespace Module132_events
             k.OverKreditMax += (s, e) => { Console.WriteLine("Kredit overskredet !!!"); };
             k.Køb(200);
             k.Køb(300);
+            string r = "søren";
+            Console.WriteLine(r.FormatNavn());
         }
 
+    }
+    public static class MyString
+    {
+        public static string FormatNavn(this string navn)
+        {
+            if (navn!=null && navn != "")
+            {
+                string res = navn.Substring(0, 1).ToUpper() + navn.Substring(1);
+                return res;
+            }
+            return navn;
+        }
     }
     public class Kunde
     {
