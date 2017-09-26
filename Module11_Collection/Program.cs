@@ -10,7 +10,7 @@ namespace Module11_Collection
     {
         static void Main(string[] args)
         {
-            Bunke b = new Bunke();
+            //Bunke b = new Bunke();
             return;
             List<Person> list = new List<Module11_Collection.Person>();
             list.Add(new Person() { Id = 10, Navn = "Christian" });
@@ -63,7 +63,7 @@ namespace Module11_Collection
 
         public static void Swap<T>(ref T a, ref T b)
         {
-            T tpm = a;
+            T tmp = a;
             a = b;
             b = tmp;
         }
